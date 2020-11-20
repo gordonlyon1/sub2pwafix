@@ -1,5 +1,6 @@
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js');
 const CACHE_NAME = "infobola";
-var urlsToCache = [
+const urlsToCache = [
   "/",
   "/manifest.json",
   "/nav.html",
